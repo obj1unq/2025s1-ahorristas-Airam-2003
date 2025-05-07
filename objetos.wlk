@@ -61,6 +61,6 @@ object empresa {
 	var property empleados = #{}
 	
 	method masRico() {
-		
+		empleados.max({empleado => empleado.ahorros()})
 	}
 }
